@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import signin from '@/components/signin'
-import signup from '@/components/signup'
+import HelloWorld from '@/components/HelloWorld'
+import Signout from '@/components/Signout'
+import Signin from '@/components/Signin'
 import search from '@/components/search'
 
 Vue.use(Router)
@@ -10,18 +11,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'signin',
-      component: signin
+      name: 'Signin',
+      component: Signin
     },
     {
-      path:'/signup',
-      name:'signup',
-      component:signup
+      path: '/Signout',
+      name: 'Signout',
+      component: Signout
     },
     {
-      path:'/search',
-      name:'search',
-      component:search
+      path: '/search',
+      name: 'search',
+      component: search
     }
   ]
 })

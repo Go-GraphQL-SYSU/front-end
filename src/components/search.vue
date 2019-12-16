@@ -2,10 +2,7 @@
     <div>
         <div>
             <p>
-                <router-link to='/'>注册</router-link>
-            </p>
-            <p>
-                <router-link to='/signup'>登录</router-link>
+                <router-link to="/Signout">登出</router-link>
             </p>
         </div>
         <div>
